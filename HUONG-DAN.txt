@@ -1,0 +1,25 @@
+KIM YẾN — FRONTEND REACT/VITE VÀ BACKEND ASP.NET CORE
+
+Yêu cầu: Node.js và .NET 8 SDK.
+
+Chạy backend trong cửa sổ terminal thứ nhất:
+  cd backend
+  dotnet run --urls http://localhost:5080
+
+Chạy frontend trong cửa sổ terminal thứ hai:
+  cd frontend
+  npm install
+  npm run dev
+
+Mở http://localhost:5173. Vite tự chuyển tiếp đường dẫn /api đến backend.
+
+API hiện có:
+  GET /api/health
+  GET /api/site-info
+
+Frontend nằm trong frontend/. Backend C# nằm trong backend/. Ảnh và font
+được đặt trong frontend/public để Vite phục vụ trực tiếp.
+
+Thông tin sản phẩm và năng lực sản xuất được tham khảo từ website doanh nghiệp
+vietnamstarch.com/about-us; hãy xác nhận lại với Kim Yến trước khi dùng làm
+báo giá hoặc hồ sơ kỹ thuật.
